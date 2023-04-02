@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="scaffolded-by" content="https://github.com/dart-lang/sdk">
+  <title>life_abc</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="main.dart.js"></script>
+</head>
+
+<body>
+
+  <div style="display: flex; flex-direction: row; justify-content: space-around">
+    <div class="form">
+      <form target="_self" method="post">
+        <fieldset>
+          <legend>人生ABC:</legend>
+          <div class="questions">
+            <label class="questionslabel">請問今年幾歲:</label>
+            <input class="questionsinput" type="text" id="qNowAge" name="qNowAge"><br><br>
+          </div>
+          <div class="questions">
+            <label class="questionslabel">幾歲開始工作:</label>
+            <input class="questionsinput" type="text" id="qWorkAge" name="qStartWork"><br><br>
+          </div>
+          <div class="questions">
+            <label class="questionslabel">月薪:</label>
+            <input class="questionsinput" type="text" id="qSalary" name="qSalary"><br><br>
+          </div>
+        </fieldset>
+      </form>
+      <div id="answerABC"></div>
+      <div id="answerABC30percent"></div>
+    </div>
+    <form class="form" target="_self" method="post">
+      <fieldset>
+        <legend>第二問題</legend>
+        <div class="questions">
+          <label class="questionslabel">想要幾歲退休:</label>
+          <input class="questionsinput" type="text" id="qRetire" name="qRetire" style="padding: 0% 10% 0%;"><br><br>
+        </div>
+        <div class="questions">
+          <label class="questionslabel">幾歲要去跟上帝喝咖啡:</label>
+          <input class="questionsinput" type="text" id="qDied" name="qDied" style="padding: 0% 10% 0%;"><br><br>
+        </div>
+
+
+      </fieldset>
+    </form>
+  </div>
+  <div style="display: flex; flex-direction: row; justify-content: space-around">
+    <form class="form" target="_self" method="post" style="margin-bottom: 2%;">
+      <fieldset>
+        <legend>第三問題</legend>
+        <div class="questions">
+          <label class="questionslabel">退休想要一個月花多少:</label>
+          <input class="questionsinput" type="text" id="qRetireNeedMoney" name="qRetireNeedMoney"
+            style="padding: 0% 10% 0%;"><br><br>
+        </div>
+        <div class="questions">
+          <label class="questionslabel">方案:</label>
+          <select class="questionselect" name="qPlan" id="qPlan">
+            <option value="6000">每個月要存6000</option>
+            <option value="12000">每個月要存12000</option>
+            <option value="18000">每個月要存18000</option>
+            <option value="24000">每個月要存24000</option>
+          </select><br><br>
+        </div>
+      </fieldset>
+    </form>
+    <div class="form">
+      <div style="display: flex; flex-direction: column;">
+        <progress id="life_abc" value="0" max="100"></progress>
+        <!--
+          <div style="display: flex; flex-direction: row; justify-content: space-between;">
+          <div>現在年齡</div>
+          <div>退休</div>
+          <div>死亡</div>
+        </div>
+        -->
+      </div>
+      <table>
+        <tr>
+          <td></td>
+          <td>一般</td>
+          <td>國磐</td>
+        </tr>
+        <tr>
+          <td>退休月花</td>
+          <td id="aRetireNeedMoney"></td>
+          <td id="aAfterRetireCostPerDay"></td>
+        </tr>
+        <tr>
+          <td>每月存</td>
+          <td id="aSavePerMonth"></td>
+          <td id="planselected">6000</td>
+        </tr>
+        <tr>
+          <td>存幾年</td>
+          <td id="atotalSalary"></td>
+          <td>8年</td>
+        </tr>
+        <tr>
+          <td>剩多少</td>
+          <td>0</td>
+          <td id="aTotal"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</body>
+
+</html>
