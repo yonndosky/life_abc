@@ -1,0 +1,26 @@
+
+.form {
+    width: 40%;
+    height: 17rem;
+    background-color: antiquewhite;
+}
+
+.form.q1 {
+    border-radius: 10% 0% 0% 0%;
+}
+
+.form.q2 {
+    border-radius: 0% 10% 0% 0%;
+}
+
+.form.q3 {
+    border-radius: 0% 0% 0% 10%;
+}
+
+.form.q4 {
+    border-radius: 0% 0% 10% 0%;
+}
+
+.form-content {
+    margin: 3%;
+}

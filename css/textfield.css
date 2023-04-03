@@ -1,0 +1,14 @@
+.inputwithlabel {
+    display: flex;
+    flex-direction: row;
+    margin: 3% 0% 0% 0%;
+}
+
+.questionslabel {
+    width: 32%;
+}
+
+.questionsinput {
+    width: 68%;
+    height: 100%;
+}
