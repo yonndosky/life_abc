@@ -1,0 +1,167 @@
+@media screen and (min-width: 3440px) {
+    section {
+        height: 29rem;
+    }
+
+    .form {
+        height: 28rem;
+    }
+}
+
+@media screen and (max-width: 3440px) {
+    section {
+        height: 28rem;
+    }
+
+    .form {
+        height: 27rem;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    section {
+        height: 27rem;
+    }
+
+    .form {
+        height: 26rem;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    section {
+        height: 23rem;
+    }
+
+    .form {
+        height: 22rem;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    section {
+        height: 21rem;
+    }
+
+    .form {
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    section {
+        height: 21rem;
+    }
+
+    .form {
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    section {
+        height: 20rem;
+    }
+
+    .form {
+        height: 19rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    section {
+        height: 20rem;
+    }
+
+    .form {
+        height: 19rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    section {
+        height: 22rem;
+    }
+
+    .form {
+        height: 22rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .textfield .input {
+        width: 70%;
+    }
+
+    section {
+        flex-direction: column;
+        margin: 0% 10%;
+        height: 48rem;
+    }
+
+    #dividersp {
+        height: 100px;
+        margin: 0% 10%;
+    }
+
+    .form {
+        height: 23rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        height: 44rem;
+    }
+
+    .form {
+        height: 21rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    section {
+        height: 40rem;
+    }
+
+    .form {
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    section {
+        height: 40rem;
+    }
+
+    .form {
+        height: 20rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .textfield .input {
+        width: 35%;
+    }
+
+    section {
+        flex-direction: row;
+        margin: 0% 10%;
+    }
+
+    #dividersp {
+        height: 100px;
+        margin: 0% 10%;
+    }
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    width: 90%;
+    background-color: antiquewhite;
+    margin: 1% 2%;
+}

@@ -7,83 +7,88 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="scaffolded-by" content="https://github.com/dart-lang/sdk">
-  <title>life_abc</title>
+  <link rel="icon" href="pics/wing-right.ico" type="image/x-icon" />
+  <title>精翅財富顧問股份有限公司</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="css/form.css">
   <link rel="stylesheet" href="css/other.css">
   <link rel="stylesheet" href="css/textfield.css">
   <link rel="stylesheet" href="css/rwd.css">
+  <link rel="stylesheet" href="css/font_size.css">
+  <link rel="stylesheet" href="css/section_size.css">
   <script defer src="main.dart.js"></script>
 </head>
 
 <body>
-  <div class="divider" id="divider1"></div>
-  <section id="section1">
+  <div class="divider"></div>
+  <section>
     <div class="form q1">
       <form target="_self" method="post">
         <fieldset class="form-content" id="part1">
           <legend>人生ABC第一站</legend>
-          <div class="inputwithlabel">
-            <label class="questionslabel">請問今年幾歲:</label>
-            <input class="questionsinput" type="text" id="qAge"><br><br>
+          <div class="textfield">
+            <label class="title">請問今年幾歲:</label>
+            <input class="input" type="text" id="qAge"><br><br>
           </div>
-          <div class="inputwithlabel">
-            <label class="questionslabel">幾歲開始工作:</label>
-            <input class="questionsinput" type="text" id="qstart-working"><br><br>
+          <div class="textfield">
+            <label class="title">幾歲開始工作:</label>
+            <input class="input" type="text" id="qstart-working"><br><br>
           </div>
-          <div class="inputwithlabel">
-            <label class="questionslabel">月薪:</label>
-            <input class="questionsinput" type="text" id="qSalary"><br><br>
+          <div class="textfield">
+            <label class="title">月薪:</label>
+            <input class="input" type="text" id="qSalary"><br><br>
           </div>
           <div id="questionsubtitle1">現在存錢，未來不用煩惱</div>
         </fieldset>
       </form>
-      <div id="aABC" style="margin: 0% 0% 0% 3%;"></div>
-      <div id="aFinancialManagement" style="margin: 0% 0% 0% 3%;"></div>
-      <div>
-        <pre id="rule136-contentin1">
-      </pre>
+
+      <div style="display: flex; flex-direction: row;">
+        <div id="rule136-contentin1"></div>
+        <div style="display: flex; flex-direction: column;">
+          <div id="aABC" style="word-break: keep-all;"></div>
+          <div id="aFinancialManagement" style="word-break: keep-all;"></div>
+        </div>
+
       </div>
     </div>
     <div class="form q2" style="display: flex;flex-direction: column;">
       <form target="_self" method="post">
         <fieldset class="form-content" id="part2">
           <legend>人生ABC第二站</legend>
-          <div class="inputwithlabel">
-            <label class="questionslabel">想要幾歲退休:</label>
-            <input class="questionsinput" type="text" id="qRetire"><br><br>
+          <div class="textfield">
+            <label class="title">想要幾歲退休:</label>
+            <input class="input" type="text" id="qRetire"><br><br>
           </div>
-          <div class="inputwithlabel">
-            <label class="questionslabel">幾歲跟上帝喝咖啡:</label>
-            <input class="questionsinput" type="text" id="qPassed-Away"><br><br>
+          <div class="textfield">
+            <label class="title">幾歲跟上帝喝咖啡:</label>
+            <input class="input" type="text" id="qPassed-Away"><br><br>
           </div>
           <div id="questionsubtitle2">存款不只是儲蓄，更是未來的自由</div>
         </fieldset>
       </form>
-      <div>*依內政部110年統計國民平均壽命為81歲 男性78歲 女性84歲</div>
+      <div class="point">*依內政部110年統計國民平均壽命為81歲 男性78歲 女性84歲</div>
     </div>
   </section>
   <div id="dividersp" style="display: flex; flex-direction: row;">
-    <pre id="rule136">
-    <code id="rule136-content">   
-    </code>
-  </pre>
-    <img src="pics/wing-left.png">
-    <div id="wing-body"></div>
-    <img src="pics/wing-right.png">
+    <div style="display: flex; flex-direction: row; width: 90%;">
+      <div id="rule136-content" style="padding: 0% 0% 0% 3%;"></div>
+      <img src="pics/wing-left.png" id="wing-left" class="watermark">
+      <img src="pics/wing-right.png" id="wing-right" class="watermark">
+    </div>
   </div>
   <section>
     <div class="form q3" style="display: flex;flex-direction: column;">
+      <div style="height: 20px;"></div>
       <form class="" target="_self" method="post" style="margin-bottom: 2%;">
         <fieldset class="form-content">
           <legend>人生ABC第三站</legend>
-          <div class="inputwithlabel">
-            <label class="questionslabel">退休想要一個月花:</label>
-            <input class="questionsinput" type="text" id="qRetireBudget"><br><br>
+          <div class="textfield">
+            <label class="title">退休想要一個月花:</label>
+            <input class="input" type="text" id="qRetireBudget"><br><br>
           </div>
-          <div class="inputwithlabel">
-            <label class="questionslabel">方案:</label>
-            <select class="questionselect" id="qPlan">
+          <div class="textfield">
+            <label class="title">方案:</label>
+            <select id="qPlan">
               <option value="0"></option>
               <option value="6000">每個月要存6000</option>
               <option value="12000">每個月要存12000</option>
@@ -93,26 +98,14 @@
           </div>
         </fieldset>
       </form>
-      <div>
+      <div class="point">
         *填寫退休月花並選擇方案可至右邊看規劃表<br>
         *人最怕的不是錢還沒花完人就走了<br>
         &nbsp;&nbsp;更可怕的事情是錢花完了人還沒走
       </div>
     </div>
     <div class="form q4">
-      <!--
-      <div class="form-content" style="display: flex; flex-direction: column;">
-        <progress id="life_abc" value="0" max="100"></progress>
-        
-          <div style="display: flex; flex-direction: row; justify-content: space-between;">
-          <div>現在年齡</div>
-          <div>退休</div>
-          <div>死亡</div>
-        </div>
-        
-      </div>
-    -->
-      <fieldset class="form-content">
+      <fieldset class="form-content" style="border-color: transparent;">
         <legend>人生ABC第四站-退休規劃試算表</legend>
         <table class="form-content" style="width: 90%; height: 80%; margin: 5%;">
           <tr>
@@ -146,15 +139,12 @@
   </section>
   <div id="text-answer" style="margin:0% 5%;">
   </div>
-  <!-- <img src="pics/wing-left.png" class="watermark" id="watermarkL">
-  <img src="pics/wing-right.png" class="watermark" id="watermarkR"> -->
   <div class="divider"></div>
   <footer style="background-color: black; color: white;">
     <div>僅限精翅團隊使用</div>
     <div>
       精翅財富顧問股份有限公司</div>
     <div>負責人：莊松峰</div>
-    <div>Do not reprint without authorization</div>
     © 陳永勳,顏進宏
   </footer>
 </body>

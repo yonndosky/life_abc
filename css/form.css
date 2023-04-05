@@ -1,5 +1,6 @@
 .form-content {
     margin: 3%;
+    padding: 0% 0% 5% 0%;
 }
 
 @media screen and (min-width: 768px) {
@@ -26,21 +27,18 @@
 
 @media screen and (max-width: 768px) {
     .form.q1 {
-        border-radius: 15%;
-        height: 340px;
+        border-radius: 2%;
     }
 
     .form.q2 {
-        border-radius: 15%;
-        height: 340px;
+        border-radius: 2%;
     }
 
     .form.q3 {
-        border-radius: 15%;
-        height: 340px;
+        border-radius: 2%;
     }
 
     .form.q4 {
-        border-radius: 15%;
+        border-radius: 2%;
     }
 }
