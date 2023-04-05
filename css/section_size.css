@@ -89,10 +89,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .textfield .input {
-        width: 35%;
-    }
-
     section {
         flex-direction: column;
         margin: 0% 10%;
@@ -140,9 +136,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .textfield .input {
-        width: 35%;
-    }
 
     section {
         flex-direction: row;
@@ -164,4 +157,8 @@ section {
     width: 90%;
     background-color: antiquewhite;
     margin: 1% 2%;
+}
+
+.textfield .input {
+    width: 35%;
 }
