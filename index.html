@@ -12,16 +12,17 @@
   <link rel="stylesheet" href="css/form.css">
   <link rel="stylesheet" href="css/other.css">
   <link rel="stylesheet" href="css/textfield.css">
+  <link rel="stylesheet" href="css/rwd.css">
   <script defer src="main.dart.js"></script>
 </head>
 
 <body>
-  <div class="divider"></div>
-  <section>
+  <div class="divider" id="divider1"></div>
+  <section id="section1">
     <div class="form q1">
       <form target="_self" method="post">
-        <fieldset class="form-content">
-          <legend>人生ABC:</legend>
+        <fieldset class="form-content" id="part1">
+          <legend>人生ABC第一站</legend>
           <div class="inputwithlabel">
             <label class="questionslabel">請問今年幾歲:</label>
             <input class="questionsinput" type="text" id="qAge"><br><br>
@@ -34,46 +35,70 @@
             <label class="questionslabel">月薪:</label>
             <input class="questionsinput" type="text" id="qSalary"><br><br>
           </div>
+          <div id="questionsubtitle1">現在存錢，未來不用煩惱</div>
         </fieldset>
       </form>
       <div id="aABC" style="margin: 0% 0% 0% 3%;"></div>
       <div id="aFinancialManagement" style="margin: 0% 0% 0% 3%;"></div>
+      <div>
+        <pre id="rule136-contentin1">
+      </pre>
+      </div>
     </div>
-    <form class="form q2" target="_self" method="post">
-      <fieldset class="form-content">
-        <legend>第二問題</legend>
-        <div class="inputwithlabel">
-          <label class="questionslabel">想要幾歲退休:</label>
-          <input class="questionsinput" type="text" id="qRetire"><br><br>
-        </div>
-        <div class="inputwithlabel">
-          <label class="questionslabel">幾歲跟上帝喝咖啡:</label>
-          <input class="questionsinput" type="text" id="qPassed-Away"><br><br>
-        </div>
-      </fieldset>
-    </form>
+    <div class="form q2" style="display: flex;flex-direction: column;">
+      <form target="_self" method="post">
+        <fieldset class="form-content" id="part2">
+          <legend>人生ABC第二站</legend>
+          <div class="inputwithlabel">
+            <label class="questionslabel">想要幾歲退休:</label>
+            <input class="questionsinput" type="text" id="qRetire"><br><br>
+          </div>
+          <div class="inputwithlabel">
+            <label class="questionslabel">幾歲跟上帝喝咖啡:</label>
+            <input class="questionsinput" type="text" id="qPassed-Away"><br><br>
+          </div>
+          <div id="questionsubtitle2">存款不只是儲蓄，更是未來的自由</div>
+        </fieldset>
+      </form>
+      <div>*依內政部110年統計國民平均壽命為81歲 男性78歲 女性84歲</div>
+    </div>
   </section>
-  <div class="divider"></div>
+  <div id="dividersp" style="display: flex; flex-direction: row;">
+    <pre id="rule136">
+    <code id="rule136-content">   
+    </code>
+  </pre>
+    <img src="pics/wing-left.png">
+    <div id="wing-body"></div>
+    <img src="pics/wing-right.png">
+  </div>
   <section>
-    <form class="form q3" target="_self" method="post" style="margin-bottom: 2%;">
-      <fieldset class="form-content">
-        <legend>第三問題</legend>
-        <div class="inputwithlabel">
-          <label class="questionslabel">退休想要一個月花:</label>
-          <input class="questionsinput" type="text" id="qRetireBudget"><br><br>
-        </div>
-        <div class="inputwithlabel">
-          <label class="questionslabel">方案:</label>
-          <select class="questionselect" id="qPlan">
-            <option value="0"></option>
-            <option value="6000">每個月要存6000</option>
-            <option value="12000">每個月要存12000</option>
-            <option value="18000">每個月要存18000</option>
-            <option value="24000">每個月要存24000</option>
-          </select><br><br>
-        </div>
-      </fieldset>
-    </form>
+    <div class="form q3" style="display: flex;flex-direction: column;">
+      <form class="" target="_self" method="post" style="margin-bottom: 2%;">
+        <fieldset class="form-content">
+          <legend>人生ABC第三站</legend>
+          <div class="inputwithlabel">
+            <label class="questionslabel">退休想要一個月花:</label>
+            <input class="questionsinput" type="text" id="qRetireBudget"><br><br>
+          </div>
+          <div class="inputwithlabel">
+            <label class="questionslabel">方案:</label>
+            <select class="questionselect" id="qPlan">
+              <option value="0"></option>
+              <option value="6000">每個月要存6000</option>
+              <option value="12000">每個月要存12000</option>
+              <option value="18000">每個月要存18000</option>
+              <option value="24000">每個月要存24000</option>
+            </select><br><br>
+          </div>
+        </fieldset>
+      </form>
+      <div>
+        *填寫退休月花並選擇方案可至右邊看規劃表<br>
+        *人最怕的不是錢還沒花完人就走了<br>
+        &nbsp;&nbsp;更可怕的事情是錢花完了人還沒走
+      </div>
+    </div>
     <div class="form q4">
       <!--
       <div class="form-content" style="display: flex; flex-direction: column;">
@@ -87,36 +112,51 @@
         
       </div>
     -->
-      <table class="form-content" style="width: 90%; height: 80%; margin: 5%;">
-        <tr>
-          <td></td>
-          <td>一般</td>
-          <td>國磐</td>
-        </tr>
-        <tr>
-          <td>退休月花</td>
-          <td id="aRetireBudget"></td>
-          <td id="aRetiredBudgetPerDay"></td>
-        </tr>
-        <tr>
-          <td>每月存</td>
-          <td id="aSavePerMonth"></td>
-          <td id="planselected"></td>
-        </tr>
-        <tr>
-          <td>存幾年</td>
-          <td id="aWorkingAge"></td>
-          <td id="aWorkingYears"></td>
-        </tr>
-        <tr>
-          <td>剩多少</td>
-          <td id="aLave"></td>
-          <td id="aTotalSaved"></td>
-        </tr>
-      </table>
+      <fieldset class="form-content">
+        <legend>人生ABC第四站-退休規劃試算表</legend>
+        <table class="form-content" style="width: 90%; height: 80%; margin: 5%;">
+          <tr>
+            <td></td>
+            <td>一般</td>
+            <td>國磐</td>
+          </tr>
+          <tr>
+            <td>退休月花</td>
+            <td id="aRetireBudget"></td>
+            <td id="aRetiredBudgetPerDay"></td>
+          </tr>
+          <tr>
+            <td>每月月存</td>
+            <td id="aSavePerMonth"></td>
+            <td id="planselected"></td>
+          </tr>
+          <tr>
+            <td>要存幾年本金</td>
+            <td id="aWorkingAge"></td>
+            <td id="aWorkingYears"></td>
+          </tr>
+          <tr>
+            <td>剩多少</td>
+            <td id="aLave"></td>
+            <td id="aTotalSaved"></td>
+          </tr>
+        </table>
+      </fieldset>
     </div>
   </section>
-
+  <div id="text-answer" style="margin:0% 5%;">
+  </div>
+  <!-- <img src="pics/wing-left.png" class="watermark" id="watermarkL">
+  <img src="pics/wing-right.png" class="watermark" id="watermarkR"> -->
+  <div class="divider"></div>
+  <footer style="background-color: black; color: white;">
+    <div>僅限精翅團隊使用</div>
+    <div>
+      精翅財富顧問股份有限公司</div>
+    <div>負責人：莊松峰</div>
+    <div>Do not reprint without authorization</div>
+    © 陳永勳,顏進宏
+  </footer>
 </body>
 
 </html>

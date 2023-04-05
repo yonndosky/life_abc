@@ -9,12 +9,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 0% 10%;
-}
 
 
 

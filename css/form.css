@@ -1,26 +1,46 @@
-
-.form {
-    width: 40%;
-    height: 17rem;
-    background-color: antiquewhite;
-}
-
-.form.q1 {
-    border-radius: 10% 0% 0% 0%;
-}
-
-.form.q2 {
-    border-radius: 0% 10% 0% 0%;
-}
-
-.form.q3 {
-    border-radius: 0% 0% 0% 10%;
-}
-
-.form.q4 {
-    border-radius: 0% 0% 10% 0%;
-}
-
 .form-content {
     margin: 3%;
+}
+
+@media screen and (min-width: 768px) {
+    #rule136-contentin1 {
+        height: 0px;
+    }
+
+    .form.q1 {
+        border-radius: 10% 0% 0% 0%;
+    }
+
+    .form.q2 {
+        border-radius: 0% 10% 0% 0%;
+    }
+
+    .form.q3 {
+        border-radius: 0% 0% 0% 10%;
+    }
+
+    .form.q4 {
+        border-radius: 0% 0% 10% 0%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form.q1 {
+        border-radius: 15%;
+        height: 340px;
+    }
+
+    .form.q2 {
+        border-radius: 15%;
+        height: 340px;
+    }
+
+    .form.q3 {
+        border-radius: 15%;
+        height: 340px;
+    }
+
+    .form.q4 {
+        border-radius: 15%;
+    }
 }
