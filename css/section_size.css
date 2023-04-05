@@ -84,13 +84,13 @@
     }
 
     .form {
-        height: 22rem;
+        height: 21rem;
     }
 }
 
 @media screen and (max-width: 768px) {
     .textfield .input {
-        width: 70%;
+        width: 35%;
     }
 
     section {
@@ -100,7 +100,7 @@
     }
 
     #dividersp {
-        height: 100px;
+        height: 125px;
         margin: 0% 10%;
     }
 

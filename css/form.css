@@ -3,6 +3,11 @@
     padding: 0% 0% 5% 0%;
 }
 
+#qPlan {
+    width: 38%;
+}
+
+
 @media screen and (min-width: 768px) {
     #rule136-contentin1 {
         height: 0px;
