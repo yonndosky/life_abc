@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,13 +15,14 @@
   <link rel="stylesheet" href="css/textfield.css">
   <link rel="stylesheet" href="css/font_size.css">
   <link rel="stylesheet" href="css/section_size.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <script defer src="main.dart.js"></script>
 </head>
 
 <body>
   <div class="divider"></div>
   <section>
-    <div class="form q1">
+    <div class="form q1 animate__animated animate__fadeInLeft">
       <form target="_self" method="post">
         <fieldset class="form-content" id="part1">
           <legend>人生ABC第一站</legend>
@@ -33,14 +35,15 @@
             <input class="input" type="text" id="qstart-working">
           </div>
           <div class="textfield">
-            <label class="title">月薪:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <label
+              class="title">月薪:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
             <input class="input" type="text" id="qSalary">
           </div>
           <div id="questionsubtitle1" class="subtitle">現在存錢，未來不用煩惱</div>
         </fieldset>
       </form>
       <div style="display: flex; flex-direction: row; margin: 0% 0% 0% 3%;">
-        
+
         <div style="display: flex; flex-direction: column;">
           <div id="aABC" style="word-break: keep-all;" class="point"></div>
           <div id="aFinancialManagement" style="word-break: keep-all;" class="point"></div>
@@ -48,7 +51,7 @@
         <div id="rule136-contentin1" class="point-136"></div>
       </div>
     </div>
-    <div class="form q2" style="display: flex;flex-direction: column;">
+    <div class="form q2 animate__animated animate__fadeInRight" style="display: flex;flex-direction: column;">
       <form target="_self" method="post">
         <fieldset class="form-content" id="part2">
           <legend>人生ABC第二站</legend>
@@ -67,7 +70,7 @@
       <!-- <div id="rule136-contentin1"></div> -->
     </div>
   </section>
-  <div id="dividersp" style="display: flex; flex-direction: row;">
+  <div id="dividersp" class="animate__animated animate__fadeInUpBig" style="display: flex; flex-direction: row;">
     <div style="display: flex; flex-direction: row; width: 90%;">
       <div id="rule136-content" style="padding: 0% 0% 0% 3%;"></div>
       <img src="pics/wing-left.png" id="wing-left" class="watermark">
@@ -75,7 +78,7 @@
     </div>
   </div>
   <section>
-    <div class="form q3" style="display: flex;flex-direction: column;">
+    <div class="form q3 animate__animated animate__fadeInLeft" style="display: flex;flex-direction: column;">
       <div style="height: 20px;"></div>
       <form class="" target="_self" method="post" style="margin-bottom: 2%;">
         <fieldset class="form-content">
@@ -85,7 +88,8 @@
             <input class="input" type="text" id="qRetireBudget">
           </div>
           <div class="textfield">
-            <label class="title">方案:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <label
+              class="title">方案:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
             <select id="qPlan">
               <option value="0"></option>
               <option value="6000">每個月要存6000</option>
@@ -102,7 +106,7 @@
         &nbsp;&nbsp;更可怕的事情是錢花完了人還沒走
       </div>
     </div>
-    <div class="form q4">
+    <div class="form q4 animate__animated animate__fadeInRight">
       <fieldset class="form-content" style="border-color: transparent;">
         <legend>人生ABC第四站-退休規劃試算表</legend>
         <table style="width: 90%; height: 80%; margin: 5%;">
@@ -153,4 +157,5 @@
     <div style="margin: 0% 0% 0% 3%;">© 陳永勳,顏進宏</div>
   </footer>
 </body>
+
 </html>
