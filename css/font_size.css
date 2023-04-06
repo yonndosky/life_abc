@@ -333,6 +333,10 @@
         font-size: 1.4rem;
     }
 
+    .point-136 {
+        font-size: 1.3rem;
+    }
+
     footer {
         font-size: 1.4rem;
     }
@@ -365,6 +369,10 @@
 
     .point {
         font-size: 1.3rem;
+    }
+
+    .point-136 {
+        font-size: 1.2rem;
     }
 
     footer {
@@ -400,6 +408,10 @@
     .point {
         font-size: 1.3rem;
     }
+
+    .point-136 {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -429,6 +441,10 @@
 
     .point {
         font-size: 0.9rem;
+    }
+
+    .point-136 {
+        font-size: 1rem;
     }
 }
 
@@ -519,5 +535,9 @@
 
     .point {
         font-size: 0.7rem;
+    }
+
+    .point-136 {
+        font-size: 0.8rem;
     }
 }

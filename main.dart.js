@@ -1352,23 +1352,23 @@ fq(){B.c.C($.cX(),"input",new A.cj())
 B.c.C($.cV(),"input",new A.ck())},
 fr(){B.c.C($.cY(),"input",new A.cl())
 B.E.C($.cW(),"input",new A.cm())},
-dJ(a){var t,s,r,q,p,o,n='<div style="word-break: keep-all;">*\u4f9d\u7167\u7406\u8ca1\u91d1\u4e09\u89d2136\u6cd5\u5247</div><div>10%\u7528\u65bc\u98a8\u96aa\u4fdd\u969c</div><div>30%\u7528\u65bc\u7406\u8ca1\u898f\u5283</div><div>60%\u7528\u65bc\u751f\u6d3b\u652f\u51fa</div>',m="#rule136-content",l="#rule136-contentin1",k="style"
+dJ(a){var t,s,r,q,p,o,n="#rule136-content",m="#rule136-contentin1",l="style"
 if(a<=768){t=document
+s=t.querySelector(n)
+if(s!=null)J.l(s,"")
+s=t.querySelector(m)
+if(s!=null)J.ct(s,'<div style="word-break: keep-all;">*\u4f9d\u7167\u7406\u8ca1\u91d1\u4e09\u89d2<br>136\u6cd5\u5247</div><div>10%\u7528\u65bc\u98a8\u96aa\u4fdd\u969c</div><div>30%\u7528\u65bc\u7406\u8ca1\u898f\u5283</div><div>60%\u7528\u65bc\u751f\u6d3b\u652f\u51fa</div>')
+t=t.querySelector(m)
+if(t!=null)t.setAttribute(l,"margin: 0% 0% 0% 3%; width: 50%;")
+t=a/2
+$.cT().setAttribute(l,"left:"+A.f(t+5)+"px;")
+$.cr().setAttribute(l,"right:"+A.f(t-5)+"px;")}else{t=document
 s=t.querySelector(m)
 if(s!=null)J.l(s,"")
-s=t.querySelector(l)
-if(s!=null)J.ct(s,n)
-t=t.querySelector(l)
-if(t!=null)t.setAttribute(k,"margin: 0% 0% 0% 3%; width: 100%;")
-t=a/2
-$.cT().setAttribute(k,"left:"+A.f(t+5)+"px;")
-$.cr().setAttribute(k,"right:"+A.f(t-5)+"px;")}else{t=document
-s=t.querySelector(l)
-if(s!=null)J.l(s,"")
-s=t.querySelector(l)
-if(s!=null)s.setAttribute(k,"margin: 0% 0% 0% 3%; width: 0%;")
-t=t.querySelector(m)
-if(t!=null)J.ct(t,n)
+s=t.querySelector(m)
+if(s!=null)s.setAttribute(l,"margin: 0% 0% 0% 3%; width: 0%;")
+t=t.querySelector(n)
+if(t!=null)J.ct(t,'<div style="word-break: keep-all;">*\u4f9d\u7167\u7406\u8ca1\u91d1\u4e09\u89d2136\u6cd5\u5247</div><div>10%\u7528\u65bc\u98a8\u96aa\u4fdd\u969c</div><div>30%\u7528\u65bc\u7406\u8ca1\u898f\u5283</div><div>60%\u7528\u65bc\u751f\u6d3b\u652f\u51fa</div>')
 t=$.cr()
 s=$.cq()
 r=s.offsetLeft
@@ -1379,7 +1379,7 @@ s.toString
 s=B.b.k(s)
 q=t.offsetWidth
 q.toString
-t.setAttribute(k,"left:"+A.f(r+s-B.b.k(q)/1.2)+"px;")
+t.setAttribute(l,"left:"+A.f(r+s-B.b.k(q)/1.2)+"px;")
 q=$.cT()
 s=$.cq()
 r=s.offsetLeft
@@ -1390,7 +1390,7 @@ s.toString
 s=B.b.k(s)
 t=$.cr().offsetWidth
 t.toString
-q.setAttribute(k,"right:"+A.f(r+s-B.b.k(t)/1.2)+"px;")}t=$.dY()
+q.setAttribute(l,"right:"+A.f(r+s-B.b.k(t)/1.2)+"px;")}t=$.dY()
 s=$.cq()
 r=s.offsetTop
 r.toString
@@ -1406,7 +1406,7 @@ s.toString
 s=B.b.k(s)
 o=t.offsetWidth
 o.toString
-t.setAttribute(k,"top:"+(r+q-15)+"px;\n      left:"+A.f(p+s/2-B.b.k(o)/2)+"px;")
+t.setAttribute(l,"top:"+(r+q-15)+"px;\n      left:"+A.f(p+s/2-B.b.k(o)/2)+"px;")
 o=$.dZ()
 s=$.dX()
 p=s.offsetTop
@@ -1423,7 +1423,7 @@ s.toString
 s=B.b.k(s)
 t=o.offsetWidth
 t.toString
-o.setAttribute(k,"top:"+(p+q-15)+"px;\n      left:"+A.f(r+s/2-B.b.k(t)/2)+"px;")},
+o.setAttribute(l,"top:"+(p+q-15)+"px;\n      left:"+A.f(r+s/2-B.b.k(t)/2)+"px;")},
 cc:function cc(){},
 cg:function cg(){},
 ch:function ch(){},
