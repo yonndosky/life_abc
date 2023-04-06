@@ -1,3 +1,8 @@
+.form {
+    width: 90%;
+    background-color: antiquewhite;
+}
+
 .form-content {
     margin: 3%;
     padding: 0% 0% 5% 0%;
@@ -8,7 +13,7 @@
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     #rule136-contentin1 {
         height: 0px;
     }

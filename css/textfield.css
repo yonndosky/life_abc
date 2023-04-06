@@ -9,3 +9,7 @@
     word-break: keep-all;
     margin: 0% 1% 0% 0%;
 }
+
+.textfield .input {
+    width: 35%;
+}

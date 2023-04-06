@@ -1,40 +1,40 @@
 @media screen and (min-width: 3440px) {
     section {
-        height: 29rem;
+        height: 36rem;
     }
 
     .form {
-        height: 28rem;
+        height: 34rem;
     }
 }
 
 @media screen and (max-width: 3440px) {
     section {
-        height: 28rem;
+        height: 33rem;
     }
 
     .form {
-        height: 27rem;
+        height: 32rem;
     }
 }
 
 @media screen and (max-width: 2560px) {
     section {
-        height: 27rem;
+        height: 30rem;
     }
 
     .form {
-        height: 26rem;
+        height: 29rem;
     }
 }
 
 @media screen and (max-width: 1920px) {
     section {
-        height: 23rem;
+        height: 25rem;
     }
 
     .form {
-        height: 22rem;
+        height: 24rem;
     }
 }
 
@@ -91,13 +91,17 @@
 @media screen and (max-width: 768px) {
     section {
         flex-direction: column;
-        margin: 0% 10%;
+        margin: 0% 5%;
         height: 48rem;
+    }
+
+    .form {
+        margin: 1% 5%;
     }
 
     #dividersp {
         height: 125px;
-        margin: 0% 10%;
+        margin: 0% 5%;
     }
 
     .form {
@@ -121,7 +125,7 @@
     }
 
     .form {
-        height: 20rem;
+        height: 18rem;
     }
 }
 
@@ -135,16 +139,20 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 
     section {
         flex-direction: row;
-        margin: 0% 10%;
+        margin: 0% 8%;
     }
 
     #dividersp {
         height: 100px;
         margin: 0% 10%;
+    }
+
+    .form {
+        margin: 1% 2%;
     }
 }
 
@@ -153,12 +161,5 @@ section {
     justify-content: space-around;
 }
 
-.form {
-    width: 90%;
-    background-color: antiquewhite;
-    margin: 1% 2%;
-}
 
-.textfield .input {
-    width: 35%;
-}
+
