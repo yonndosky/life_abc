@@ -1,15 +1,28 @@
 .textfield {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.textfield:nth-child(3),
+.textfield:nth-child(4) {
     margin: 3% 0% 0% 0%;
 }
 
-.textfield .title
-{
+.textfield .title {
     word-break: keep-all;
     margin: 0% 1% 0% 0%;
 }
 
-.textfield .input {
+input {
     width: 35%;
+    background-color: transparent;
+    display: block;
+    outline: none;
+    border-style: none none solid none;
+}
+
+input[type=text i]:focus {
+    border-style: none none solid none;
 }

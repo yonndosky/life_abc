@@ -1,7 +1,4 @@
 @media screen and (min-width: 3440px) {
-    .qPlan {
-        font-size: 2.0rem;
-    }
 
     .textfield .title {
         font-size: 2.2rem;
@@ -41,9 +38,6 @@
         font-size: 1.7rem;
     }
 
-    .qPlan {
-        font-size: 1.9rem;
-    }
 
     legend {
         font-size: 2.5rem;
@@ -72,10 +66,6 @@
     }
 
     .textfield .input {
-        font-size: 1.5rem;
-    }
-
-    .qPlan {
         font-size: 1.5rem;
     }
 
@@ -109,10 +99,6 @@
         font-size: 1.4rem;
     }
 
-    .qPlan {
-        font-size: 1.4rem;
-    }
-
     legend {
         font-size: 1.7rem;
     }
@@ -140,10 +126,6 @@
     }
 
     .textfield .input {
-        font-size: 1.2rem;
-    }
-
-    .qPlan {
         font-size: 1.2rem;
     }
 
@@ -177,10 +159,6 @@
         font-size: 1.2rem;
     }
 
-    .qPlan {
-        font-size: 1.2rem;
-    }
-
     legend {
         font-size: 1.6rem;
     }
@@ -190,6 +168,8 @@
     }
 
     table {
+
+
         font-size: 1.6rem;
     }
 
@@ -208,10 +188,6 @@
     }
 
     .textfield .input {
-        font-size: 1.2rem;
-    }
-
-    .qPlan {
         font-size: 1.2rem;
     }
 
@@ -245,10 +221,6 @@
         font-size: 1.0rem;
     }
 
-    .qPlan {
-        font-size: 1.0rem;
-    }
-
     legend {
         font-size: 1.5rem;
     }
@@ -276,10 +248,6 @@
     }
 
     .textfield .input {
-        font-size: 1.0rem;
-    }
-
-    .qPlan {
         font-size: 1.0rem;
     }
 
@@ -313,10 +281,6 @@
         font-size: 1.2rem;
     }
 
-    .qPlan {
-        font-size: 1.2rem;
-    }
-
     legend {
         font-size: 1.8rem;
     }
@@ -329,11 +293,7 @@
         font-size: 1.65rem;
     }
 
-    .point {
-        font-size: 1.4rem;
-    }
-
-    .point-136 {
+    .phone-point-136 {
         font-size: 1rem;
     }
 
@@ -348,10 +308,6 @@
     }
 
     .textfield .input {
-        font-size: 1.1rem;
-    }
-
-    .qPlan {
         font-size: 1.1rem;
     }
 
@@ -371,8 +327,8 @@
         font-size: 1.3rem;
     }
 
-    .point-136 {
-        font-size:0.9rem;
+    .phone-point-136 {
+        font-size: 0.9rem;
     }
 
     footer {
@@ -386,10 +342,6 @@
     }
 
     .textfield .input {
-        font-size: 1.1rem;
-    }
-
-    .qPlan {
         font-size: 1.1rem;
     }
 
@@ -409,7 +361,7 @@
         font-size: 1.3rem;
     }
 
-    .point-136 {
+    .phone-point-136 {
         font-size: 1rem;
     }
 }
@@ -420,10 +372,6 @@
     }
 
     .textfield .input {
-        font-size: 0.9rem;
-    }
-
-    .qPlan {
         font-size: 0.9rem;
     }
 
@@ -443,7 +391,7 @@
         font-size: 0.9rem;
     }
 
-    .point-136 {
+    .phone-point-136 {
         font-size: 1rem;
     }
 }
@@ -454,10 +402,6 @@
     }
 
     .textfield .input {
-        font-size: 0.8rem;
-    }
-
-    .qPlan {
         font-size: 0.8rem;
     }
 
@@ -487,9 +431,6 @@
         font-size: 0.8rem;
     }
 
-    .qPlan {
-        font-size: 0.9rem;
-    }
 
     legend {
         font-size: 0.8rem;
@@ -517,10 +458,6 @@
         font-size: 0.8rem;
     }
 
-    .qPlan {
-        font-size: 0.8rem;
-    }
-
     legend {
         font-size: 0.8rem;
     }
@@ -537,7 +474,7 @@
         font-size: 0.7rem;
     }
 
-    .point-136 {
+    .phone-point-136 {
         font-size: 0.8rem;
     }
 }

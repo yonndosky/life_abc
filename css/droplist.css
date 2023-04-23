@@ -1,0 +1,10 @@
+select {
+    width: 35%;
+    margin: 0% 0% 2% 0%;
+    background-color: transparent;
+    display: block;
+    outline: none;
+    border-style: none none solid none;
+    border-color: #767676;
+    border-block-width: 2px;
+}

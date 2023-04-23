@@ -1,14 +1,15 @@
 .ctitle {
     color: white;
-    margin: auto;
-    padding: 2%;
+    padding: 2% 0%;
     font-size: 2.3em;
     font-weight: 700;
 
 }
-.nav
-{
+
+.nav {
     background-color: black;
+    display: flex;
+    flex-direction: row;
 }
 
 @media screen and (max-width: 427px) {
@@ -34,7 +35,8 @@ footer {
     background-color: black;
     color: white;
     padding: 3vh 0%;
-  }
-  footer .content {
+}
+
+footer .content {
     margin: 0% 0% 0% 3%;
-  }
+}
