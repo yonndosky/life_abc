@@ -2,7 +2,8 @@
 
     .textfield>.title,
     .textfield>.input,
-    .text-point {
+    .text-point,
+    .answer1 {
         font-size: 1.6rem;
     }
 
@@ -21,7 +22,8 @@
 
     .textfield>.title,
     .textfield>.input,
-    .text-point {
+    .text-point,
+    .answer1 {
         font-size: 1.6rem;
     }
 
@@ -40,7 +42,8 @@
 
     .textfield>.title,
     .textfield>.input,
-    .text-point {
+    .text-point,
+    .answer1 {
         font-size: 1.5rem;
     }
 
@@ -62,7 +65,8 @@
 
     .textfield>.title,
     .textfield>.input,
-    .text-point {
+    .text-point,
+    .answer1 {
         font-size: 1.4rem;
     }
 
@@ -84,7 +88,8 @@
 
     .textfield>.title,
     .textfield>.input,
-    .text-point {
+    .text-point,
+    .answer1 {
         font-size: 1.4rem;
     }
 
@@ -103,7 +108,8 @@
 
     .textfield>.title,
     .textfield>.input,
-    .text-point {
+    .text-point,
+    .answer1 {
         font-size: 1.3rem;
     }
 
@@ -123,7 +129,8 @@
 
     .textfield>.title,
     .textfield>.input,
-    .text-point {
+    .text-point,
+    .answer1 {
         font-size: 1.2rem;
     }
 
@@ -143,7 +150,8 @@
 
     .textfield>.title,
     .textfield>.input,
-    .text-point {
+    .text-point,
+    .answer1 {
         font-size: 1rem;
     }
 
