@@ -5,6 +5,7 @@ legend {
 form>fieldset {
     margin: 2% 3%;
     border-color: black;
+    border-style: dashed;
 }
 
 .box>form {
