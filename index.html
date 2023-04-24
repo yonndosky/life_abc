@@ -23,140 +23,145 @@
 </head>
 
 <body>
-  <div class="nav">
-    <img src="pics/wing-right.png" class="watermark">
-    <div class="ctitle">精翅財富顧問股份有限公司</div>
-  </div>
-  <div class="divider"></div>
-  <section class="main-content">
-    <div class="box animate__animated animate__fadeInLeft" id="main">
-      <form target="_self" method="post">
-        <fieldset id="question1">
-          <legend tabindex="0" class="title">人生ABC第一站</legend>
-          <div class="textfield">
-            <label class="title">請問今年幾歲:</label>
-            <input class="input" type="text" id="qAge">
-          </div>
-          <div class="textfield">
-            <label class="title">幾歲開始工作:</label>
-            <input class="input" type="text" id="qstart-working">
-          </div>
-          <div class="textfield">
-            <label
-              class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月薪:</label>
-            <input class="input" type="text" id="qSalary">
-          </div>
-          <div style="height: 10px;"></div>
-        </fieldset>
-      </form>
-      <div style="display: flex; flex-direction: row; align-items: center;">
-        <div class="answer1">
-          <div id="aABC" style="word-break: keep-all;"></div>
-          <div style="word-break: keep-all; display: flex; flex-direction: row;">投資理財:
-            <div id="aFinancialManagement" style="color:#0080FF;align-self: end;"></div>
-          </div>
-        </div>
+  <div class="wrapper">
+    <div class="nav">
+      <img src="pics/wing-right.png" class="watermark">
+      <div class="ctitle">精翅財富顧問股份有限公司</div>
+    </div>
+    <div class="divider"></div>
+    <section class="main-content">
+      <div class="box animate__animated animate__fadeInLeft" id="main">
+        <form target="_self" method="post">
+          <fieldset id="question1">
+            <legend tabindex="0" class="title">人生ABC第一站</legend>
+            <div style="display: flex;flex-direction: row; justify-content: space-between;">
+              <div>
+                <div class="textfield">
+                  <label class="title">請問今年幾歲:</label>
+                  <input class="input" type="text" id="qAge">
+                </div>
+                <div class="textfield">
+                  <label class="title">幾歲開始工作:</label>
+                  <input class="input" type="text" id="qstart-working">
+                </div>
+                <div class="textfield">
+                  <label
+                    class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;月薪:</label>
+                  <input class="input" type="text" id="qSalary">
+                </div>
+                <div style="height: 10px;"></div>
+                <div class="answer1">
+                  <div class="textfield">
+                    <div id="aABC" style="word-break: keep-all;"></div>
+                  </div>
+                  <div style="word-break: keep-all; display: flex; flex-direction: row;">投資理財:
+                    <div id="aFinancialManagement" style="color:#0080FF;align-self: end;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="web-rule136" id="rule136">
+                <div style="word-break: keep-all;text-align: end;">*依照理財金三角136法則</div>
+                <div style="text-align: end;">10%用於風險保障</div>
+                <div style="color:#0080FF;text-align: end;">30%用於理財規劃</div>
+                <div style="text-align: end;">60%用於生活支出</div>
+              </div>
+            </div>
+            <div style="height: 10px;"></div>
+          </fieldset>
+        </form>
         <div class="phone-point-136">
-          <div>*依照理財金三角<br>136法則</div>
+          <div>*依照理財金三角136法則</div>
           <div>10%用於風險保障</div>
           <div style="color:#0080FF;">30%用於理財規劃</div>
           <div>60%用於生活支出</div>
         </div>
+        <div id="subtitle1" class="subtitle">現在存錢，未來不用煩惱</div>
       </div>
-      <div id="subtitle1" class="subtitle">現在存錢，未來不用煩惱</div>
-    </div>
-    <div class="box animate__animated animate__fadeInRight">
-      <form target="_self" method="post">
-        <fieldset id="question2">
-          <legend>人生ABC第二站</legend>
-          <div class="textfield">
-            <label class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;想要幾歲退休:</label>
-            <input class="input" type="text" id="qRetire">
-          </div>
-          <div class="textfield">
-            <label class="title">幾歲跟上帝喝咖啡:</label>
-            <input class="input" type="text" id="qPassed-Away">
-          </div>
-          <!-- <div class="textfield"><label class="title">&nbsp;</label></div> -->
-          <div style="height: 10px;"></div>
-        </fieldset>
-      </form>
-      <div id="subtitle2" class="subtitle">存款不只是儲蓄，更是未來的自由</div>
-    </div>
-    <div class="box animate__animated animate__fadeInLeft">
-      <div>
-        <form class="" target="_self" method="post" style="margin-bottom: 2%;">
-          <fieldset>
-            <legend class="title">人生ABC第三站</legend>
-            <!-- <div class="textfield"><label class="title">&nbsp;</label></div> -->
+      <div class="box animate__animated animate__fadeInRight">
+        <form target="_self" method="post">
+          <fieldset id="question2">
+            <legend>人生ABC第二站</legend>
             <div class="textfield">
-              <label class="title">退休想要一個月花:</label>
-              <input class="input" type="text" id="qRetireBudget">
+              <label class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;想要幾歲退休:</label>
+              <input class="input" type="text" id="qRetire">
             </div>
             <div class="textfield">
-              <label
-                class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方案:</label>
-              <select id="qPlan">
-                <option value="0"></option>
-                <option value="6000">每個月要存6000</option>
-                <option value="12000">每個月要存12000</option>
-                <option value="18000">每個月要存18000</option>
-                <option value="24000">每個月要存24000</option>
-              </select>
+              <label class="title">幾歲跟上帝喝咖啡:</label>
+              <input class="input" type="text" id="qPassed-Away">
             </div>
             <!-- <div class="textfield"><label class="title">&nbsp;</label></div> -->
+            <div style="height: 10px;"></div>
           </fieldset>
         </form>
-        <div class="point">
-          *填寫退休月花並選擇方案可至第四站看規劃表<br>
-          *人最怕的不是錢還沒花完人就走了<br>
-          &nbsp;&nbsp;更可怕的事情是錢花完了人還沒走
+        <div id="subtitle2" class="subtitle">存款不只是儲蓄，更是未來的自由</div>
+      </div>
+      <div class="box animate__animated animate__fadeInLeft">
+        <div>
+          <form class="" target="_self" method="post" style="margin-bottom: 2%;">
+            <fieldset>
+              <legend class="title">人生ABC第三站</legend>
+              <!-- <div class="textfield"><label class="title">&nbsp;</label></div> -->
+              <div class="textfield">
+                <label class="title">退休想要一個月花:</label>
+                <input class="input" type="text" id="qRetireBudget">
+              </div>
+              <div class="textfield">
+                <label
+                  class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方案:</label>
+                <select id="qPlan">
+                  <option value="0"></option>
+                  <option value="6000">每個月要存6000</option>
+                  <option value="12000">每個月要存12000</option>
+                  <option value="18000">每個月要存18000</option>
+                  <option value="24000">每個月要存24000</option>
+                </select>
+              </div>
+              <!-- <div class="textfield"><label class="title">&nbsp;</label></div> -->
+            </fieldset>
+          </form>
+          <div class="text-point" style="margin: 0% 3% 3% 3%;">
+            *填寫退休月花並選擇方案可至第四站看規劃表<br>
+            *人最怕的不是錢還沒花完人就走了<br>
+            &nbsp;&nbsp;更可怕的事情是錢花完了人還沒走
+          </div>
         </div>
       </div>
-    </div>
-    <div class="box animate__animated animate__fadeInRight">
-      <fieldset style="border-color: transparent;">
-        <legend>人生ABC第四站-退休規劃試算表</legend>
-        <table style="width: 90%; height: 80%; margin: 5%;">
-          <tr>
-            <td></td>
-            <td>一般</td>
-            <td>國磐</td>
-          </tr>
-          <tr>
-            <td>退休月花</td>
-            <td id="aRetireBudget"></td>
-            <td id="aRetiredBudgetPerDay"></td>
-          </tr>
-          <tr>
-            <td>每月月存</td>
-            <td id="aSavePerMonth"></td>
-            <td id="planselected"></td>
-          </tr>
-          <tr>
-            <td>要存幾年本金</td>
-            <td id="aWorkingAge"></td>
-            <td id="aWorkingYears"></td>
-          </tr>
-          <tr>
-            <td>剩多少</td>
-            <td id="aLave"></td>
-            <td id="aTotalSaved"></td>
-          </tr>
-        </table>
-      </fieldset>
-    </div>
-  </section>
-  <div class="web-rule136 animate__animated animate__fadeInUpBig" id="web-rule136">
-    <div>
-      <div style="word-break: keep-all;">依照理財金三角136法則</div>
-      <div>10%用於風險保障</div>
-      <div style="color:#0080FF;">30%用於理財規劃</div>
-      <div>60%用於生活支出</div>
-    </div>
+      <div class="box animate__animated animate__fadeInRight">
+        <fieldset style="border-color: transparent;">
+          <legend>人生ABC第四站-退休規劃試算表</legend>
+          <table style="width: 90%; height: 80%; margin: 5%;">
+            <tr>
+              <td></td>
+              <td>一般</td>
+              <td>國磐</td>
+            </tr>
+            <tr>
+              <td>退休月花</td>
+              <td id="aRetireBudget"></td>
+              <td id="aRetiredBudgetPerDay"></td>
+            </tr>
+            <tr>
+              <td>每月月存</td>
+              <td id="aSavePerMonth"></td>
+              <td id="planselected"></td>
+            </tr>
+            <tr>
+              <td>要存幾年本金</td>
+              <td id="aWorkingAge"></td>
+              <td id="aWorkingYears"></td>
+            </tr>
+            <tr>
+              <td>剩多少</td>
+              <td id="aLave"></td>
+              <td id="aTotalSaved"></td>
+            </tr>
+          </table>
+        </fieldset>
+      </div>
+    </section>
+    <div id="text-answer" class="point text-point"></div>
+    <div class="divider"></div>
   </div>
-  <div id="text-answer" class="point"></div>
-  <div class="divider"></div>
   <footer>
     <div class="content">負責人：莊松峰</div>
     <div class="content">©2023 顏進宏,精翅團隊. All rights reserved.</div>
